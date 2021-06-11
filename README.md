@@ -1,5 +1,5 @@
 
-# Amazon-Review-System
+# Amazon Review System Using NLP
 
 ## Problem Statement
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The problem in sentiment analysis is classifying the polarity of a given text at the document, sentence, feature/aspect level  whether the expressed opinion in a document, a sentence or an entity feature/aspect is <br>
@@ -29,4 +29,24 @@ Libraries Used:
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 NLTK Package
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Flask
 
+## Feature Extraction
+Using the concepts of Natural Language Processing the data are being processed. The pre-processing steps includes
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Remove HTML Elements.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Remove Non Characters/ Special Character.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Converting words to lower/upper case
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Remove Stop words
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Remove extra whitespaces.
+
+## Implementation Flow
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.Stemming and Lemmatization
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.Stop words and Pos Taggers
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.Stratified Shuffle Split data
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.Bag Of Words
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.Term Frequency and Inverse Document Frequency
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.Up sampling 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.Class weight
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.LSTM
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9.Bi-Directional LSTM
+
+    
 
