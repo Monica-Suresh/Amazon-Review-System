@@ -29,6 +29,17 @@ Libraries Used:
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 NLTK Package
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Flask
 
+## Dataset
+This dataset of Amazon product data by Julian McAuley, UCSD contains product reviews and metadata from Amazon, including 142.8 million reviews spanning May 1996 - July 2014. 
+
+
+The dataset contains 413840  reviews which is classified under 5 rating based on the product and contains 4 columns. Every rating is based on a 5-star scale, so all ratings range from one to five stars, with no half-star or quarter-star in between.
+
+Data Set Link:
+http://jmcauley.ucsd.edu/data/amazon/
+
+
+
 ## Feature Extraction
 Using the concepts of Natural Language Processing the data are being processed. The pre-processing steps includes
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Remove HTML Elements.
